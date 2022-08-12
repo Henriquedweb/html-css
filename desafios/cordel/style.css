@@ -23,25 +23,17 @@ a {
 header {
     background-color: black;
     text-align: center;
-    height: 250px;
+    max-height: 250px;
     padding: 10px;
+    margin: auto;
 }
 
 header > p {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    padding: 0px 0px 20px 0px;
 }
-
-pre#especial {
-    background-image: url('imagens/background001.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-color: black;
-    color: white;
-    height: 770px;
-}
-
 
 h1 {
     color: white;
@@ -52,9 +44,20 @@ h1 {
     font-weight: bold;
 }
 
+p#especial {
+    background-image: url('imagens/background001.jpg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    max-height: 1150px;
+}
+
+p.especial {
+    background-color: black;
+}
+
 pre {
     font-family: 'sriracha';
-    font-size: 41px;
+    font-size: 67px;
 }
 
 main {
