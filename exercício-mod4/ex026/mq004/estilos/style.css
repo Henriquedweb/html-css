@@ -39,6 +39,7 @@ h1 {
 img {
     display: block;
     margin: 10px;
+    margin: auto;
 }
 
 img#phone {display: block;}
